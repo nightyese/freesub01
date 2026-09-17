@@ -19,11 +19,11 @@ proxies:
   client-fingerprint: chrome
 - name: 🇱🇻 拉脱维亚 (Latvia) 02 - xiaohe
   server: 185.135.86.175
-  port: 9068
+  port: 9033
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: mwgRg9hRq3b4Qnwb
+  password: UTJA57ypk2XKQpnm
 proxy-groups:
 - name: PROXIES
   type: select
