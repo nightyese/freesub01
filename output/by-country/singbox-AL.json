@@ -5,22 +5,21 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 01 - xiaohe",
-      "server": "62.77.158.1",
+      "tag": "🇦🇱 AL 01 - xiaohe",
+      "server": "85.155.228.185",
       "server_port": 443,
-      "uuid": "2eceaf2b-a775-5a9c-9990-dad2b3660fb6",
-      "flow": "xtls-rprx-vision",
+      "uuid": "ca5ffe64-81e0-42f0-a136-03cc4f662a4f",
       "tls": {
         "enabled": true,
-        "server_name": "online.1c.ru",
+        "server_name": "avsal.krusofiya.fun",
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "sVhkyiMXvpofflCdSszxQmsqOXV1kg1Ldxq1a9mOPjs",
-          "short_id": "6a"
+          "public_key": "9M294WArTUZ9m1fMmvlHauSb5wZo68SkCW_lEgBVAF8",
+          "short_id": "4d5faa03b738bd3b"
         }
       }
     },
@@ -29,14 +28,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇹 立陶宛 (Lithuania) 01 - xiaohe"
+        "🇦🇱 AL 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇹 立陶宛 (Lithuania) 01 - xiaohe"
+        "🇦🇱 AL 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
