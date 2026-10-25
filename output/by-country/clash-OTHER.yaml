@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 108.162.194.134
+  server: 190.93.245.148
   port: 443
   udp: true
   type: trojan
