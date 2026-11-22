@@ -4,30 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe
-  server: 144.31.90.235
-  port: 8445
+- name: 🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe
+  server: 191.217.238.38
+  port: 443
   udp: true
   type: vless
-  uuid: cac10246-5b76-4809-9fd0-417c58a3ca90
+  uuid: 097eae28-f0e7-4b18-bce2-16cf7d9deb05
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: 32eua16pKE179lLHv-VNZGrX287qQFMXA3n0VgEzNTQ
-    short-id: b3a633bc754b648d
-  servername: portal.gifmems.com
+    public-key: vq0Fi871QaDVmxY7F0XWByt9muX3-16E31XfHWZj9D8
+    short-id: 28138197d12e8e38
+  servername: www.bmw.de
   client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe
+  - 🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe
+  - 🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe
 rules:
 - MATCH,PROXIES
