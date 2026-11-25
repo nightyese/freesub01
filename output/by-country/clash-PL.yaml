@@ -12,17 +12,15 @@ proxies:
   cipher: aes-256-cfb
   password: TN2YqghxeFDKZfLU
 - name: 🇵🇱 波兰 (Poland) 02 - xiaohe
-  server: 171.22.129.227
+  server: 94.183.167.172
   port: 443
   udp: true
   type: vless
-  uuid: 42c83523-9f96-41b2-82d6-2edb71a4ac19
-  flow: xtls-rprx-vision
+  uuid: d7121b33-e335-4921-bb00-4c0b157e7fc1
   tls: true
-  reality-opts:
-    public-key: fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA
-  servername: nujd35aknu.static-mirror.site
-  client-fingerprint: firefox
+  servername: s8k4.scan-cdn.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select

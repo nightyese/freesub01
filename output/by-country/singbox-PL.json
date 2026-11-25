@@ -14,21 +14,16 @@
     {
       "type": "vless",
       "tag": "🇵🇱 波兰 (Poland) 02 - xiaohe",
-      "server": "171.22.129.227",
+      "server": "94.183.167.172",
       "server_port": 443,
-      "uuid": "42c83523-9f96-41b2-82d6-2edb71a4ac19",
-      "flow": "xtls-rprx-vision",
+      "uuid": "d7121b33-e335-4921-bb00-4c0b157e7fc1",
       "tls": {
         "enabled": true,
-        "server_name": "nujd35aknu.static-mirror.site",
+        "server_name": "s8k4.scan-cdn.com",
+        "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA",
-          "short_id": ""
+          "fingerprint": "chrome"
         }
       }
     },
